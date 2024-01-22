@@ -8,7 +8,7 @@ Go (>= 1.9)
 ## Installation
 
 ```shell
-go get github.com/hlts2/gocache
+go get github.com/c1ay/gocache
 ```
 
 ## Example
