@@ -6,7 +6,6 @@ import (
 
 	"github.com/allegro/bigcache"
 	"github.com/bluele/gcache"
-	"github.com/bouk/monkey"
 	"github.com/kpango/gache"
 	cache "github.com/patrickmn/go-cache"
 )
@@ -19,7 +18,7 @@ var data = map[string]string{
 }
 
 func BenchmarkGocache(b *testing.B) {
-	monkey.Unpatch(time.Now)
+	// monkey.Unpatch(time.Now)
 
 	g := New()
 
